@@ -13,7 +13,6 @@ def home():
     """Ruta principal que retorna un mensaje de bienvenida"""
     return jsonify({
         "mensaje": "¡Bienvenido a mi primer servicio web con Flask!",
-        "mensaje": "¡Espero que esto salga bien xD",
         "status": "success"
     })
 
